@@ -74,7 +74,7 @@ body {
 }
 
 /* Controller Buttons */
-button {
+.button {
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -82,15 +82,15 @@ button {
     transition: transform 0.5s;
 }
 
-button:focus {
+.button:focus {
     outline: none;
 }
 
-button:hover i {
+.button:hover i {
     color: #636363;
 }
 
-i {
+.i {
     font-size: 50px;
     color: gray;
 }
